@@ -404,6 +404,7 @@ def add_new_form():
 header()
 
 base_counters = read_bd()
+
 if action == "add":
     add(base_counters)
 elif action == "add_page":
